@@ -13,4 +13,4 @@ const addTextField = (args : TextField) : TextField => {
     }
 }
 
-export default addTextField
+export { addTextField}
