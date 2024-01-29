@@ -1,17 +1,12 @@
 import { PrimeReactProvider } from 'primereact/api';
-import { FC } from 'react';
+import Header from '../components/header';
+        
 
-type AppProps = {
-    Component : React.ComponentType<unknown>
-    pageProps : object
-}
-
-const MyApp : FC<AppProps> =  ({ Component, pageProps }) => {
+export default function App() {
     return (
         <PrimeReactProvider>
-            <Component {...pageProps} />
+           <Header />
         </PrimeReactProvider>
     );
 }
-
-export default MyApp
+       
