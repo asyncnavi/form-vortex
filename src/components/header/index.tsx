@@ -14,8 +14,8 @@ const Header =( ) => {
             <SideDrawer visible={visible} onHide={ () => handleSideDrawer()} />
             <div className="container flex justify-between items-center mx-auto">
                 <div className="flex">
-                    <Button className='mr-2' onClick={handleSideDrawer}>
-                    <IconMenu2 size={36}  /> 
+                    <Button size="small" className='mr-2' onClick={handleSideDrawer}>
+                    <IconMenu2 size={18}  /> 
                     </Button>
 
                 <img src="/logo.svg" alt="" className='w-[100px]' />
