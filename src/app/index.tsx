@@ -12,3 +12,6 @@ export default function App() {
     );
 }
        
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Eku@018018';
+FLUSH PRIVILEGES;
